@@ -1,0 +1,484 @@
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 12;
+  }
+  
+    .nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+  .list1 ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .logo {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  .infocontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .infohead h2 {
+    font-size: 6rem;
+  }
+  .personal {
+    width: 100%;
+  }
+  .counter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .servicehead h2 {
+    font-size: 6rem;
+  }
+  .job {
+    width: 100%;
+  }
+  .resumehead h2 {
+    font-size: 6rem;
+  }
+  .resumecontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .edu {width: 100%;}
+  .exp {
+    width: 100%;
+  }
+  .skillcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftskills {width: 100%;}
+  .rightskills {
+    width: 100%;
+  }
+  .portfoliohead h2 {
+    font-size: 6rem;
+  }
+  .portcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .leftpart {width: 100%;}
+  .rightpart {width: 100%;}
+  .middlepart {width:100%;}
+.clienthead h2 {
+    font-size: 6rem;
+}
+.clients {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;}
+.clientgroup {width: 90%;}
+.lastsectioncon {display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.leftpanel {
+    width: 100%;
+    text-align: center;
+}
+.rightpanel {
+    width: 100%;
+    text-align: center;
+}
+.rightpanel button {
+    margin: auto;
+}
+footer {
+    display: flex;
+    justify-content: space-evenly;
+}
+}
+/* second */
+@media screen and (min-width: 601px) and (max-width:768px) {
+    html {
+        font-size: 14;
+      }
+      
+        .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+      }
+      .list1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+      }
+      .logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      .infocontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .infohead h2 {
+        font-size: 6rem;
+      }
+      .personal {
+        width: 100%;
+      }
+      .counter {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+      }
+      .count {
+        width: 50%;
+      }
+      .servicehead h2 {
+        font-size: 6rem;
+      }
+      .job {
+        width: 100%;
+        text-align: center;
+      }
+      .job img {
+        text-align: center;
+      }
+      .resumehead h2 {
+        font-size: 6rem;
+      }
+      .resumecontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .edu {width: 100%;}
+      .exp {
+        width: 100%;
+      }
+      .skillcon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .leftskills {width: 100%;}
+      .rightskills {
+        width: 100%;
+      }
+      .portfoliohead h2 {
+        font-size: 6rem;
+      }
+      .portcontent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .leftpart {width: 100%;}
+      .rightpart {width: 100%;}
+      .middlepart {width:100%;}
+    .clienthead h2 {
+        font-size: 6rem;
+    }
+    .clients {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+    .clientgroup {width: 90%;}
+    .lastsectioncon {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .leftpanel {
+        width: 100%;
+        text-align: center;
+    }
+    .rightpanel {
+        width: 100%;
+        text-align: center;
+    }
+    .rightpanel button {
+        margin: auto;
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+/* third */
+@media  screen and (min-width: 768px) and (max-width:992px) {
+    html {
+        font-size: 14;
+      }
+      
+        .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+      }
+      .list1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+      }
+      .logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      .infocontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .infohead h2 {
+        font-size: 6rem;
+      }
+      .content {width: 50%;}
+      .personal {
+        width: 50%;
+      }
+      .counter {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+      }
+      .count {
+        width: 50%;
+      }
+      .servicehead h2 {
+        font-size: 6rem;
+      }
+      .job {
+        width: 50%;
+        text-align: center;
+      }
+      .job img {
+        text-align: center;
+      }
+      .resumehead h2 {
+        font-size: 6rem;
+      }
+      .resumecontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .edu {width: 50%;}
+      .exp {
+        width: 50%;
+      }
+      .skillcon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .leftskills {width: 50%;}
+      .rightskills {
+        width: 50%;
+      }
+      .portfoliohead h2 {
+        font-size: 6rem;
+      }
+      .portcontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .leftpart {width: 33.3%;}
+      .rightpart {width: 33.3%;}
+      .middlepart {width:33.3%;}
+    .clienthead h2 {
+        font-size: 6rem;
+    }
+    .clients {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;}
+    .clientgroup {width: 85%;}
+    .lastsectioncon {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .leftpanel {
+        width: 25%;
+        text-align: center;
+    }
+    .rightpanel {
+        width: 75%;
+        text-align: center;
+    }
+    .rightpanel button {
+        margin: auto;
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+@media screen and (min-width: 993) and (max-width:1100) {
+    html {
+        font-size: 14;
+      }
+      
+        .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+      }
+      .list1 ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+      }
+      .logo {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+      }
+      .infocontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .infohead h2 {
+        font-size: 6rem;
+      }
+      .content {width: 50%;}
+      .personal {
+        width: 50%;
+      }
+      .counter {
+        display: flex;
+        flex-direction: row;
+        /* flex-wrap: wrap; */
+        justify-content: center;
+        align-items: center;
+      }
+      .count {
+        width: 50%;
+      }
+      .servicehead h2 {
+        font-size: 6rem;
+      }
+      .job {
+        width: 50%;
+        text-align: center;
+      }
+      .job img {
+        text-align: center;
+      }
+      .resumehead h2 {
+        font-size: 6rem;
+      }
+      .resumecontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .edu {width: 50%;}
+      .exp {
+        width: 50%;
+      }
+      .skillcon {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .leftskills {width: 50%;}
+      .rightskills {
+        width: 50%;
+      }
+      .portfoliohead h2 {
+        font-size: 6rem;
+      }
+      .portcontent {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+      .leftpart {width: 33.3%;}
+      .rightpart {width: 33.3%;}
+      .middlepart {width:33.3%;}
+    .clienthead h2 {
+        font-size: 6rem;
+    }
+    .clients {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;}
+    .clientgroup {width: 85%;}
+    .lastsectioncon {display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .leftpanel {
+        width: 25%;
+        text-align: center;
+    }
+    .rightpanel {
+        width: 75%;
+        text-align: center;
+    }
+    .rightpanel button {
+        margin: auto;
+    }
+    footer {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
